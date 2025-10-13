@@ -14,16 +14,17 @@ const slides = [
 { src: 'images/image03.jpg', 
  alt: 'third', 
  caption: 'last bit of text which is longer than the others to show line breaks'
-}
-{ src: 'image/btsimg1.JPG', 
+},
+{ src: 'images/btsimg1.JPG', 
  alt: 'fourth', 
  caption: 'behind the scenes 1'
-}	
+},	
 { src: 'images/btsimg2.JPG', 
  alt: 'fifth', 
  caption: 'behind the scenes 2'
 }
-];let currentIndex = 0;
+];
+let currentIndex = 0;
 // Preload images
 slides.forEach(({ src }) => {
 const i = new Image();
