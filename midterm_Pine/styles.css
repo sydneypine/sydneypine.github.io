@@ -1,15 +1,13 @@
 /* Basic reset */
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body {
-height: 100%;
-width: 100%;
-overflow: hidden; /* no scrollbars for a clean full-screen look */
-font-family: "Dancing Script", cursive;
-}
-.viewer {
-position: relative; /* important: anchors the absolute-positioned children */
-height: 100vh; /* full viewport height */
-width: 100vw; /* full viewport width */
+body 
+	// <weight>: Use a value from 400 to 700
+	// <uniquifier>: Use a unique and descriptive class name
+	.dancing-script-<uniquifier>
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 .viewer img {
 }
@@ -31,11 +29,11 @@ object-fit: cover; /* fill without distortion; may crop */
 .viewer .description {
     position: absolute;
     left: 50%;
-    bottom: 45%;
+    bottom: 50%;
 	transform: translate(-50%, -50%); /* shift back half of its own size*/
     text-shadow: 0px 0px;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 2rem;
 	background: rgba(0, 0, 0, 0.5);
 	border-radius: 1rem;
 	padding: 1rem 1.5rem;

@@ -13,7 +13,7 @@ const slides = [
 },
 { src: 'images/tulips.jpg', 
  alt: 'flowers', 
- caption: 'We have these in America, but they somehow seemed ever more beautiful in Austria.'
+ caption: 'We have these in America, but they somehow seemed even more beautiful in Austria.'
 },
 { src: 'images/nymphenburg.jpg', 
  alt: 'palace', 
