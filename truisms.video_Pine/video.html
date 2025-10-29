@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Untitled Document</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
@@ -9,15 +10,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Full Screen Video with Quote</title>
 <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+<script src="script.js" defer></script>
 
 <body>
 	<!-- Full-screen video element -->
-<video autoplay loop muted class="background-video"> <!-- Video will play automatically, loop, and be muted -->
+<video id="videoPlayer" autoplay loop muted class="background-video"> <!-- Video will play automatically, loop, and be muted -->
 <source src="videos/nye2021.mp4" type="video/mp4"> <!-- Path to the video file -->
 Your browser does not support the video tag. <!-- Fallback message for unsupported browsers -->
 </video>
 <!-- Centered text box with quote -->
-<div class="text-box">
+<div id="textBox" class="text-box">
 <p>NOISE CAN BE HOSTILE</p> <!-- Text of the quote -->
 </div>
 </body>
