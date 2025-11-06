@@ -10,8 +10,9 @@ body, html {
 height: 100%;
 display: flex;
 justify-content: center;
-align-items: center;
+align-items: flex-end;
 overflow: hidden; /* Disable scrolling */
+padding-bottom: 1%
 }
 /* Full-screen video styling */
 .background-video {
@@ -25,11 +26,11 @@ z-index: -1; /* Places video behind the text box */
 }
 /* Centered text box styling */
 .text-box {
-background-color: yellow; /* Background color for text box */
-color: black; /* Text color */
-font-weight: bold; /* Bold text */
-padding: 20px; /* Padding inside the text box */
-border-radius: 10px; /* Rounded corners */
-text-align: center; /* Center-align text within the box */
-max-width: 80%; /* Limits the width of the text box */
+    background-color: #FF0000; /* Background color for text box */
+    color: black; /* Text color */
+    font-weight: bold; /* Bold text */
+    padding: 20px; /* Padding inside the text box */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center-align text within the box */
+    max-width: 80%; /* Limits the width of the text box */
 }
