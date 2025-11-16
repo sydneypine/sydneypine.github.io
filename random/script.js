@@ -19,8 +19,8 @@ const verbs = ["run",
 const generateBtn = document.getElementById("generateBtn");
 
 function picker(array) {
-	const randomIndex = Math.floor(Math.random() * adjectives.length);
-	console.log("Random word:", adjectives[randomIndex])
+	const randomIndex = Math.floor(Math.random() * array.length);
+	console.log("Random word:", array[randomIndex])
 	return array[randomIndex];
 }
 
