@@ -24,7 +24,7 @@ function picker(array) {
 	return array[randomIndex];
 }
 
-generateBtn.addEventListener("click", picker);
+generateBtn.addEventListener("click", buildSentence);
 
 function buildSentence() {
 	const sentence = [
