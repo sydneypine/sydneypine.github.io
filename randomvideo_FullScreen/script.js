@@ -48,7 +48,7 @@ function buildVideo() {
 	playlist = [
 		picker(videoPart1),
 		picker(videoPart2),
-		picker(videoPart3)
+		picker(videoPart3),
 	];
 	
 	currentIndex = 0;
